@@ -1,0 +1,74 @@
+p{
+    color: magenta;
+    text-align: center;
+}
+
+h1{
+    text-align: left;
+    color:pink;
+    padding: .5%;
+}
+
+li{
+    list-style: inside;
+    text-align: center;
+    color: aqua;
+}
+
+nav{
+    text-align:right;
+    background-color:#540098;
+    text-transform: capitalize;
+    line-height: 90%;
+    padding: .5%;
+    border-radius: 5px;
+}
+
+h3{
+    text-align: center;
+    color: rgb(255, 232, 236);
+}
+
+hr{
+    color: aliceblue;
+}
+
+body{
+    background:linear-gradient(180deg, #1a032c 0%, #35035b 50%, #1a032c 100%);
+    font-family:'Oleo Script', sans-serif;
+}
+
+a:link{
+    color:pink;
+}
+a:visited{
+    color: pink;
+}
+a:hover{
+    color: rgb(225, 134, 149);
+}
+a:active{
+    color:aliceblue;
+}
+
+#about_page{
+    background:linear-gradient(180deg, #1a032c 0%, #35035b 50%, #1a032c 100%);
+}
+
+img{
+    align-self:center;
+}
+
+#footer_text{
+    color:pink;
+}
+
+#image_left{
+    float: right;
+}
+
+footer{
+    background-color:#540098;
+    line-height: 200%;
+    border-radius: 5px;
+}
