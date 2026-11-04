@@ -22,6 +22,9 @@ nav{
     line-height: 90%;
     padding: .5%;
     border-radius: 5px;
+    border-width: .25vw;
+    border-color:#962eeb;
+    border-style: solid;
 }
 
 h3{
@@ -51,24 +54,34 @@ a:active{
     color:aliceblue;
 }
 
-#about_page{
-    background:linear-gradient(180deg, #1a032c 0%, #35035b 50%, #1a032c 100%);
-}
-
 img{
-    align-self:center;
+    align-content:center;
+    margin-top: .5vw;
+    margin-left: 37%;
 }
 
 #footer_text{
     color:pink;
 }
 
-#image_left{
-    float: right;
+#images_index{
+    align-items: center;
+    display: inline;
 }
 
 footer{
     background-color:#540098;
     line-height: 200%;
     border-radius: 5px;
+    border-width: .25vw;
+    border-color:#962eeb;
+    border-style: solid;
+}
+
+.bodyText{
+    background: linear-gradient(180deg, #1a032c 0%, #35035b 50%, #1a032c 100%);
+    border-radius: 5px;
+    border-width: .25vw;
+    border-color:#962eeb;
+    border-style: solid;
 }
