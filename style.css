@@ -38,6 +38,7 @@ hr{
 
 body{
     background:linear-gradient(180deg, #1a032c 0%, #35035b 50%, #1a032c 100%);
+    font-family: sans-serif;
 }
 
 .titleText{
