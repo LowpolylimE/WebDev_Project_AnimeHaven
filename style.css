@@ -38,20 +38,27 @@ hr{
 
 body{
     background:linear-gradient(180deg, #1a032c 0%, #35035b 50%, #1a032c 100%);
+}
+
+.titleText{
     font-family:'Oleo Script', sans-serif;
 }
 
 a:link{
     color:pink;
+    font-weight: bold;
 }
 a:visited{
     color: pink;
+    font-weight: bold;
 }
 a:hover{
     color: rgb(225, 134, 149);
+    font-weight: bold;
 }
 a:active{
     color:aliceblue;
+    font-weight: bold;
 }
 
 img{
