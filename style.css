@@ -64,17 +64,22 @@ a:active{
 
 img{
     align-content:center;
-    margin-top: .5vw;
-    margin-left: 37%;
 }
 
 #footer_text{
     color:pink;
 }
 
-#images_index{
-    align-items: center;
+img{
     display: inline;
+    width: 33%;
+    margin-top: .5vw;
+}
+
+.centeredImage{
+    margin-left: 33%;
+    margin-top: .5vh;
+    margin-bottom: .5vh;
 }
 
 footer{
