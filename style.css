@@ -72,14 +72,15 @@ img{
 
 img{
     display: inline;
-    width: 33%;
+    width: 20%;
     margin-top: .5vw;
+    margin-left: 10%;
 }
 
 .centeredImage{
-    margin-left: 20%;
-    margin-top: .5vh;
-    margin-bottom: .5vh;
+    margin-left: 33%;
+    margin-top: .5vw;
+    margin-bottom: .5vw;
 }
 
 footer{
