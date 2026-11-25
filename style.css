@@ -1,3 +1,14 @@
+@media only screen and (max-width: 600px) {
+    .image_index img{
+        width: 20vh;
+        margin-left: 33%;
+    }
+}
+
+body {
+        font-size: 1rem;
+}
+
 p{
     color: magenta;
     text-align: center;
@@ -10,6 +21,7 @@ h1{
 }
 
 li{
+    
     list-style: inside;
     text-align: center;
     color: aqua;
@@ -43,6 +55,7 @@ body{
 
 .titleText{
     font-family:'Oleo Script', sans-serif;
+    font-size: 2.5rem;
 }
 
 a:link{
@@ -70,12 +83,24 @@ img{
     color:pink;
 }
 
-img{
+.image_index img{
     display: inline;
-    width: 20%;
-    margin-top: .5vw;
-    margin-left: 10%;
+    width: 20vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 8.55%;
+    transition: transform 0.5s ease 0.01s;
+    border-radius: 5px;
+    border-width: .25vw;
+    border-color:aliceblue;
+    border-style: solid;
 }
+
+.image_index img:hover{
+    transform: scale(1.1);
+}
+
+
 
 .centeredImage{
     margin-left: 33%;
